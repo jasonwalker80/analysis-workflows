@@ -12,11 +12,15 @@ known_indels:
 dbsnp:
   class: File
   path: keep:591f8a4326389d97bbbb01ddd1bcd606+8203/Homo_sapiens_assembly38.dbsnp138.vcf.gz
-interval_list:
+target_intervals:
   class: File
   path: keep:d8abfaae11ae3416b6bb95f72671d133+205/xgen-exome-research-panel-targets.interval_list
+bait_intervals:
+  class: File
+  path: keep:d8abfaae11ae3416b6bb95f72671d133+205/xgen-exome-research-panel-probes.interval_list
+omni_vcf:
+  class: File
+  path: keep:874df92638cf01d59b18f42959082d1c+276/omni25-ld-pruned-20000-2000-0.5-annotated.wchr.sites_only.b38.autosomes_only.vcf.gz
 bams:
-  - { class: File, path: '' }
-  - { class: File, path: '' }
-readgroups: ['', '']
+readgroups:
 
